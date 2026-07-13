@@ -1,0 +1,41 @@
+{
+  "pins": {
+    "companion-module-bmd-atem": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "Git",
+        "url": "https://github.com/bitfocus/companion-module-bmd-atem"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v4.1.2",
+      "revision": "19396ac944fa6b2ab8197191ef55a7a5903f3676",
+      "url": null,
+      "hash": "sha256-4wA4r0++NsrFd5u0TyPtZgxmy0DD6Lpf102r/3+0YJo="
+    },
+    "companion-module-generic-http": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "Git",
+        "url": "https://github.com/bitfocus/companion-module-generic-http"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v3.1.0",
+      "revision": "07573d44a0521f21878aa7ded44ba5823edf54f3",
+      "url": null,
+      "hash": "sha256-cvECQuLoGFOeFem7YqzfZqkd8S0QEP0/09ujYD1RZyg="
+    },
+    "nixpkgs-unstable": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-26.11pre1033616.6cdc7fc76e8b/nixexprs.tar.xz",
+      "hash": "sha256-w9ktuEgDIWGsX58tR3nI5HBGNy1idO8KY4urO3msko0="
+    }
+  },
+  "version": 7
+}
